@@ -1,0 +1,11 @@
+A=[3,-5,2,0,7,-1,8,4,-9]
+hasil=1
+müsbət=False
+for ədəd in A:
+    if ədəd>0:
+        hasil*=ədəd
+        müsbət=True
+if müsbət:
+    print("Müsbət ədədlərin hasili:",hasil)
+else:
+    print("Müsbət ədəd yoxdur.")
